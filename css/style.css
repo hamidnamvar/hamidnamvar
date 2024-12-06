@@ -1,7 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/sahel.woff2') format('woff2'),
+    url('/fonts/sahel.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/sahel-bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/sahel-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Sahel', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -688,7 +708,7 @@ a:focus {
 }
 
 .contact_section button {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Sahel', sans-serif;
   display: inline-block;
   padding: 10px 65px;
   background-color: rgba(30, 108, 147, 1);

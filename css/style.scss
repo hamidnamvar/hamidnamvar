@@ -4,11 +4,16 @@ $primary1: rgba(30,108,147,1);
 $primary2: #f8842b;
 $textCol: #1f1f1f;
 
-// import fonts
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/sahel.woff2') format('woff2'),
+       url('/fonts/sahel.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @mixin main-font {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Sahel', sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
