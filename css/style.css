@@ -113,7 +113,7 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: rgba(30, 108, 147, 1);
+  background: linear-gradient(135deg, #6a5acd, #1e90ff);
   border-radius: 0 0 350px 0;
 }
 
@@ -463,8 +463,7 @@ a:focus {
 .service_section .box:hover::before {
   -webkit-transform: scale(5);
   transform: scale(5);
-  background-color: rgba(30, 108, 147, 1);
-}
+background: linear-gradient(135deg, #6a5acd, #1e90ff);}
 
 .service_section .box:hover img {
   -webkit-filter: invert(1);
@@ -484,8 +483,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: rgba(30, 108, 147, 1);
-  color: #ffffff;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -499,8 +497,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: rgba(30, 108, 147, 1);
-  color: #ffffff;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   border-radius: 250px 0 250px 0;
 }
 
@@ -636,8 +633,7 @@ a:focus {
 
 .client_section .box .detail-box {
   background-color: #ffffff;
-  background-color: rgba(30, 108, 147, 1);
-  color: #ffffff;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   border-radius: 15px;
   padding: 85px 45px 15px 45px;
 }
@@ -654,8 +650,7 @@ a:focus {
 }
 
 .client_section .carousel-indicators li {
-  background-color: rgba(30, 108, 147, 1);
-  width: 10px;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  width: 10px;
   height: 10px;
   border-radius: 100%;
   opacity: 1;
@@ -711,8 +706,7 @@ a:focus {
   font-family: 'Sahel', sans-serif;
   display: inline-block;
   padding: 10px 65px;
-  background-color: rgba(30, 108, 147, 1);
-  color: #ffffff;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   border-radius: 3px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -743,8 +737,7 @@ a:focus {
 }
 
 .footer_container {
-  background-color: rgba(30, 108, 147, 1);
-  color: #ffffff;
+background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   border-radius: 350px 0 0 0;
   padding-top: 145px;
 }
@@ -892,6 +885,23 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+}
+.intro {
+  /*background: linear-gradient(135deg, #6a5acd, #1e90ff);*/
+  color: white;
+  padding: 50px 20px;
+              color: #f8f8ff; /* سفید ملایم با ته‌رنگ آبی */
+
+}
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffd700; /* زرد طلایی */
+}
+.intro p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  line-height: 1.6;
 }
 
 /*# sourceMappingURL=style.css.map */
