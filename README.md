@@ -7,10 +7,8 @@
     <td>
       <h2> 💻 &nbsp;About Me </h2>
        <ul>
-        <li>🎓 &nbsp; B.Sc of Electrical Engineering at <a href="https://ut.ac.ir/en">UT</a></li>
-        <li>📚 &nbsp; Studying M.Sc of Communication Networks at <a href="[https://ut.ac.ir/en](https://hamedan.iau.ir/fa)">Azad University</a></li>
-        <li>👑 &nbsp; Junior Java Back-end Developer </li>
-        <li>🤔 &nbsp; Interested in Machine Learning and Optimization</li>
+        <li>📚 &nbsp; Bachelor's student in software <a href="[https://ut.ac.ir/en](https://hamedan.iau.ir/fa)">Azad University</a></li>
+        <li>👑 &nbsp; Product designer and software developer </li>
        </ul>
        <p align="center">
          <br>
