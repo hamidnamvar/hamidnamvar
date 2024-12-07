@@ -15,11 +15,6 @@
         <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hamidnamvar&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
         </p>
     </td>
-    <td>
-     <p align="center">
-        <img height="360em" src="https://github.com/Taabannn/Taabannn/blob/main/images/java-python-developer.png"/>
-     </p>
-    </td>
   </tr>
   <tr>
    <td>
@@ -51,7 +46,7 @@
       <img align="center" alt="Taban Soleymani | Instagram" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" />
       </a> &nbsp;&nbsp;
       <a href="h.rnamvar1384@gmail.com" >
-      <img align="center" alt="Taban Soleymani | Gmail" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/gmail.png" />
+      <img align="center" alt="hamidrezanamvar| Gmail" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/gmail.png" />
       </a> &nbsp;&nbsp;
       <br>
     </div>
