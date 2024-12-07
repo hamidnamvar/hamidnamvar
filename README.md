@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 ## I'm HamidRezaNamvar
-![](https://komarev.com/ghpvc/?username=your-taabann&color=0069b4)
+![](https://komarev.com/ghpvc/?username=your-hamidnamvar&color=0069b4)
 <table>
   <tr>
     <td>
@@ -59,9 +59,3 @@
    </td>
   </tr>
 </table>
-
-------
-
-Credit: [Taabannn](https://github.com/Taabannn)
-
-Last Edited on: 07/08/2022
