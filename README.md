@@ -23,8 +23,7 @@
   </tr>
   <tr>
    <td>
-     <h2> 🛠 &nbsp;Tech Stack</h2>
-     <img src="https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B"/>
+     <h2> 🛠 &nbsp;Tech Stack</h2><img src="https://img.shields.io/badge/-C%23-05122A?style=flat&logo=CSharp&logoColor=white"/>
      <br>
      <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5"/>
      <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3"/>
