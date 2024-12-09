@@ -25,6 +25,7 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
+  direction: rtl;
 }
 
 .layout_padding {
@@ -902,6 +903,28 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   font-size: 1.2rem;
   margin: 10px 0;
   line-height: 1.6;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+.tech-stack img {
+  margin: 5px;
+}
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+}
+.social-icons a {
+  text-decoration: none;
+}
+.stats {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
