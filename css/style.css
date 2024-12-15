@@ -18,10 +18,10 @@
   src: url('/fonts/sahel-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
-}
+}     
 
 body {
-  font-family: 'Sahel', sans-serif;
+  font-family: 'Sahab', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -114,7 +114,7 @@ a:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: linear-gradient(135deg, #6a5acd, #1e90ff);
+  background: rgb(30, 108, 147);
   border-radius: 0 0 350px 0;
 }
 
@@ -124,7 +124,8 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 0 15px;
+  margin-top: 10px;
 }
 
 .header_section .container-fluid {
@@ -464,7 +465,7 @@ a:focus {
 .service_section .box:hover::before {
   -webkit-transform: scale(5);
   transform: scale(5);
-background: linear-gradient(135deg, #6a5acd, #1e90ff);}
+background: rgb(30, 108, 147);}
 
 .service_section .box:hover img {
   -webkit-filter: invert(1);
@@ -484,7 +485,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);}
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
+background: rgb(30, 108, 147);  color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -498,7 +499,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
 }
 
 .about_section {
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
+background: rgb(30, 108, 147);  color: #ffffff;
   border-radius: 250px 0 250px 0;
 }
 
@@ -634,7 +635,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
 
 .client_section .box .detail-box {
   background-color: #ffffff;
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
+background: rgb(30, 108, 147);  color: #ffffff;
   border-radius: 15px;
   padding: 85px 45px 15px 45px;
 }
@@ -651,7 +652,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
 }
 
 .client_section .carousel-indicators li {
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  width: 10px;
+background: rgb(30, 108, 147);  width: 10px;
   height: 10px;
   border-radius: 100%;
   opacity: 1;
@@ -707,7 +708,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  width: 10px;
   font-family: 'Sahel', sans-serif;
   display: inline-block;
   padding: 10px 65px;
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
+background: rgb(30, 108, 147);  color: #ffffff;
   border-radius: 3px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -738,7 +739,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
 }
 
 .footer_container {
-background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
+background: rgb(30, 108, 147);  color: #ffffff;
   border-radius: 350px 0 0 0;
   padding-top: 145px;
 }
@@ -888,7 +889,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   color: inherit;
 }
 .intro {
-  /*background: linear-gradient(135deg, #6a5acd, #1e90ff);*/
+  /*background: rgb(30, 108, 147);*/
   color: white;
   padding: 50px 20px;
               color: #f8f8ff; /* سفید ملایم با ته‌رنگ آبی */
@@ -897,7 +898,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
 .intro h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #ffd700; /* زرد طلایی */
+  color: #ffffff; /* زرد طلایی */
 }
 .intro p {
   font-size: 1.2rem;
@@ -905,7 +906,7 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   line-height: 1.6;
 }
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .profile-img {
@@ -926,5 +927,107 @@ background: linear-gradient(135deg, #6a5acd, #1e90ff);  color: #ffffff;
   display: flex;
   justify-content: center;
 }
+.circle-icon {
+  width: 60x; /* عرض تصویر */
+  height: 60px; /* ارتفاع تصویر */
+  border-radius: 50%; /* برای گرد کردن تصویر */
+  overflow: hidden; /* حذف قسمت‌های اضافی */
+  /*border: 2px solid #ccc;*/ /* حاشیه دلخواه */
+}
+.circle-icon img {
+  width: 100%; /* اندازه تصویر را تطبیق می‌دهد */
+  height: 100%; /* برای پوشش کامل */
+  object-fit: cover; /* برای حفظ تناسب تصویر */
+}
+/* styles.css */
 
+/* از Uiverse.io توسط alexruix */
+.loader {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  position: relative;
+}
+
+.loader:before {
+  content: '';
+  width: 48px;
+  height: 5px;
+  background: #f0808050;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
+
+.loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgb(30, 108, 147);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
+
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
+
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
+
+/* استایل مخفی کردن */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 9999;
+}
+
+#content {
+  display: none;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #aaa, #000, #aaa);
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */
